@@ -11,7 +11,6 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -28,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot-desktop.jpg)
-![](./screenshot-mobile.jpg)
+![](./screenshot-desktop.png)
+![](./screenshot-mobile.png)
 
 ### Links
 
@@ -47,12 +46,6 @@ Users should be able to:
 ### What I learned
 
 I learnt using "active" and "open" classes to toggle states which helps do most of the required functionality in css rather than js
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ## Author
 
