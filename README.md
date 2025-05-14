@@ -41,7 +41,6 @@ Users should be able to:
 
 - Flexbox
 - Mobile-first workflow
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
