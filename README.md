@@ -48,7 +48,7 @@ I learnt using "active" and "open" classes to toggle states which helps do most 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/VeyronShark)
+- Frontend Mentor - [@VeyronShark](https://www.frontendmentor.io/profile/VeyronShark)
 
 ## Acknowledgments
 
