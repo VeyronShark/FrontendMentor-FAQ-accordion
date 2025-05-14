@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(275, 100%, 97%);
+  background-image: url(./assets/images/background-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  font-family: "Work Sans", sans-serif;
+
+  padding: 1.5rem;
+}
+
+.container {
+  background-color: white;
+  max-width: 40rem;
+  border-radius: 0.5rem;
+  padding: calc(1.5rem + (16 / (1440 - 375)) * (100vw - 375px));
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1::before {
+  content: '';
+  display: inline-block;
+  background-image: url(./assets/images/icon-star.svg);
+  background-size: contain;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+  color: hsl(292, 42%, 14%);
+}
+
+.faq-container {
+  width: 100%;
+}
+.faq {
+  width: 100%;
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+.faq:last-of-type{
+  border-bottom: none;
+}
+.faq:last-of-type .question{
+  padding-bottom: 0;
+}
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+.question p {
+  width: 14rem;
+  width: calc(14rem + (360 / (1440 - 375)) * (100vw - 375px));
+  color: hsl(292, 42%, 14%);
+  font-weight: 600;
+}
+.question p:hover {
+  color: #AE28EB;
+}
+.question .button {
+  background-image: url(./assets/images/icon-plus.svg);
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+.answer {
+  color: hsl(292, 16%, 49%);
+  padding-bottom: 1.5rem;
+  display: none;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+.faq.open .answer {
+  display: block;
+}
+.faq.open .question .button {
+  background-image: url(./assets/images/icon-minus.svg);
+}
+
+@media (min-width: 750px){
+  body {
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+  }
+  h1::before {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  h1 {
+    font-size: 3.5rem;
+  }
+  .container {
+    box-sizing: border-box;
+  }
+  .question p {
+    font-size: 1.05rem;
+  }
+  .answer {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
